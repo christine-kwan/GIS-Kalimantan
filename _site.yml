@@ -1,0 +1,24 @@
+name: "smt201project"
+title: "SMT201 GIS Project Website"
+description: |
+  SMT201 GIS Project Website
+output_dir: "_site"
+
+navbar:
+  left:
+    - text: "Overview"
+      href: overview.html
+    - text: "Data Preparation"
+      href: datapreparation.html
+    - text: "Report of Survey"
+      href: reportofsurvey.html
+    - text: "Site Selection Report"
+      href: siteselection.html
+
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    
+output: distill::distill_article
